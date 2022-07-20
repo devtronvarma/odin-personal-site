@@ -13,6 +13,7 @@ body {
     align-items: center;
     justify-content: space-between;
     background-color: #1F2937;
+    padding-top: 20px;
   }
 
 .logo {
@@ -76,8 +77,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 180px;
-    margin-right: 180px;
+    padding-left: 180px;
+    padding-right: 180px;
+    padding-bottom: 40px;
 }
 
 .mid-header {
@@ -114,6 +116,10 @@ body {
     align-self: center;
     text-align: center;
     width: 75%;
+}
+
+.quote-container {
+    background-color: #E5E7EB;
 }
 
 ul {
