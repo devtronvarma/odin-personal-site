@@ -40,9 +40,10 @@ body {
 .hero-left {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     padding-left: 180px;
-    width: 400px;
+    width: 500px;
+    gap: 10px;
 }
 
 .hero-main {
@@ -66,12 +67,51 @@ body {
 
 .hero-image {
     max-width: 100%;
-    justify-self: flex-end;
-    background-repeat: no-repeat;
-    background-size: contain;
     padding-right: 180px;
     padding-bottom: 40px;
     margin-top: 50px;
+}
+
+.mid-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-header {
+    font-size: 36px;
+    font-weight: 900;
+    color:#1F2937;
+    justify-self: center;
+}
+
+.mid-boxes {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    width: 100vw;
+}
+
+.mid-box {   
+    display: flex;
+    flex-direction: column;
+}
+
+.box {
+    border-radius: 15px;
+    border: 6px solid #3882F6;
+    padding: 20px;
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+    align-self: center;
+}
+
+.mid-box-info {
+    text-align: center;
+    font-size: 18px;
+    color: grey;
+    align-self: center;
 }
 
 ul {
