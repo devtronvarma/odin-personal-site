@@ -146,6 +146,39 @@ body {
     align-self: flex-end;
 }
 
+.action-container {
+    height: 400px;
+    margin: 90px 90px;
+    padding-bottom: 45px;
+    padding-top: 45px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 9px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.action-header {
+    font-size: 24px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.action-subtext {
+    font-size: 16px;
+}
+
+.action-button {
+    font-size: 18px;
+    font-weight: bold;
+    border: 1px solid #F9FAF8;
+    width: 90px;
+    border-radius: 9px;
+    padding: 10px;
+    text-align: center;
+}
+
 ul {
     list-style: none;
 }
