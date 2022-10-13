@@ -118,6 +118,11 @@ input[type="email"] {
     font-size: 16px;
   }
 
+.resources-list {
+    margin-left: 500px;
+    align-self:flex-start;
+}
+
 .hero-left {
     display: flex;
     flex-direction: column;
@@ -284,9 +289,15 @@ input[type="email"] {
 
 ul {
     list-style: none;
+    line-height: 1.5;
 }
 
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+a:hover {
+    font-weight: bolder;
+    font-style: italic;
 }
