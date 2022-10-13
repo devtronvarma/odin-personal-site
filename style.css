@@ -40,6 +40,26 @@ body {
 	padding: 50px 0px 50px;
 }
 
+.about-hero {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    height: 900px;
+	padding: 50px 0px 50px;
+}
+
+.about-hero-main {
+    padding-top: 20px;
+}
+
+.about-hero-subtext {
+    margin: 20px 100px;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
 .hero-left {
     display: flex;
     flex-direction: column;
